@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="533.0" prefWidth="718.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.hrfaraonapp.WorkersController">
+   <children>
+      <Button fx:id="addWorkerButton" layoutX="628.0" layoutY="66.0" mnemonicParsing="false" onAction="#onAddWorkerButtonClick" text="+">
+         <font>
+            <Font name="Arial Bold" size="13.0" />
+         </font></Button>
+      <TableView fx:id="workerTableView" layoutX="106.0" layoutY="66.0" prefHeight="432.0" prefWidth="522.0">
+        <columns>
+          <TableColumn fx:id="idCollumn" prefWidth="75.0" text="id" />
+          <TableColumn fx:id="nameCollumn" prefWidth="116.00007629394531" text="Imie" />
+            <TableColumn fx:id="secondNameCollumn" prefWidth="103.99993896484375" text="Nazwisko" />
+            <TableColumn fx:id="salaryCollumn" prefWidth="94.4000244140625" text="Wynagrodzenie" />
+            <TableColumn fx:id="workExperienceCollumn" prefWidth="131.99997558593748" text="Staż pracy" />
+        </columns>
+      </TableView>
+      <Button fx:id="exportToCsvButton" layoutX="14.0" layoutY="66.0" mnemonicParsing="false" onAction="#onExportButtonClick" text="Export to csv " />
+      <Button layoutX="627.0" layoutY="92.0" mnemonicParsing="false" onAction="#onRemoveButtonClick" prefHeight="24.0" prefWidth="26.0" text="-">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Button>
+      <Button layoutX="628.0" layoutY="119.0" mnemonicParsing="false" onAction="#onNettoButtonClick" text="Na netto" />
+   </children>
+</AnchorPane>
