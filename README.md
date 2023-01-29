@@ -7,7 +7,7 @@ Aplikacja pozwala na :
 - Wylicznie uproszczonej płacy netto dla zaznaczonego pracwonika z listy 
 - Export listy do pliku Csv na podstawie wybranej ścieżki w oknie dialogowym
 
-## Infomracje Techniczne
+## Informacje Techniczne
 1. Plik exe aplikacji, jest umieszczany w folderze build/launch4j/ i tworzony przy użyciu plugina launch4j
 2. Aplikacja posiada kilka testów jednostkowych sprawdzających poprawne działanie kalkulatora płac
 3. Aplikaca posiada rozbudowaną strukturę klas która umożliwa potencjalny rozwój w przyszłości
